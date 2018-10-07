@@ -1,3 +1,5 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/MrSwiss/rocket.chat-0.70.1/tree/master)
+
 ![Rocket.Chat logo](https://upload.wikimedia.org/wikipedia/commons/1/12/Rocket.Chat_Logo.svg)
 
 # The Ultimate Open Source WebChat Platform
