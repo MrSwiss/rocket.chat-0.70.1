@@ -6,15 +6,15 @@
   "keywords": ["meteor", "social", "community", "chat"],
   "website": "https://rocket.chat",
   "env": {
-    "BUILDPACK_URL": "https://github.com/RocketChat/meteor-buildpack-horse.git",
+    "BUILDPACK_URL": "https://github.com/MrSwiss/meteor-buildpack-horse.git",
     "HEROKU_APP_NAME": {
       "description": "Please re-enter your App Name from the top.",
       "required": true
     },
-    "DEPLOY_PLATFORM": "heroku"
-  },
-  "addons": [
-    "mongolab",
-    "logentries"
-  ]
+    "DEPLOY_PLATFORM": "heroku",
+    "MONGODB_URI": {
+      "description": "mongodb://user:pass@url:port/name",
+      "required": true
+    }
+  }
 }
