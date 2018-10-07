@@ -834,7 +834,7 @@ RocketChat.settings.addGroup('General', function() {
 			i18nDescription: 'Notifications_Max_Room_Members_Description',
 		});
 
-		this.add('Notifications_Always_Notify_Mobile', false, {
+		this.add('Notifications_Always_Notify_Mobile', true, {
 			type: 'boolean',
 			public: true,
 			i18nDescription: 'Notifications_Always_Notify_Mobile_Description',
