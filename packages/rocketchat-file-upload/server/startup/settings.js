@@ -230,7 +230,7 @@ RocketChat.settings.addGroup('FileUpload', function() {
 		});
 	});
 
-	this.add('FileUpload_Enabled_Direct', true, {
+	this.add('FileUpload_Enabled_Direct', false, {
 		type: 'boolean',
 		public: true,
 	});
